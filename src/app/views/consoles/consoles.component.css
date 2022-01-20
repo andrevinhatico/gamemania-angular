@@ -1,0 +1,521 @@
+.container-grid {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.topo {
+    height: 44px;
+    background-color: #1446A0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+.topo a{
+    margin-left: 5px;
+}
+
+.pix-topo img {
+    width:30px;
+}
+
+.texto-topo img  {
+    width:195px;
+}
+
+header {
+    height: 200px;
+    background-color: #EDE82A; 
+        
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+
+.logo {
+    width: 242px;
+}
+
+#divBusca{
+    background-color:white;
+    border:none;
+    width:320px;
+    height:40px;
+    text-align: center;
+  }
+
+  #divLupa{
+    background-color:white;    
+    width:40px;
+    height: 40px; 
+  }
+
+  #btnBusca{
+    border:none;
+    float:left;
+    height:40px;
+    width:40px;
+    font-weight:bold;
+    background-color: white;
+  }
+
+.icones {
+    width: 40px;
+    margin-left: 15px;   
+}
+
+
+
+.menufundo {    
+    display: flex;
+    justify-content: center;     
+  
+}
+
+.menufundo a {
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1446A0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'IBM Plex Serif', serif;
+    
+}
+
+.menu a:hover {
+    background-color: #1446A0 ;
+    color: #ffffff;
+}
+
+.link-menu-barras {
+    display: none;
+    
+}
+
+#menu-barra {
+    display: none;
+}
+
+
+/* .banner {
+    background-image: url(../img/banner_black.png);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.item {
+    height:390px;
+    width: 370px;         
+}
+
+.item img {
+    width: 315px;
+    align-items: centers;
+
+}
+
+.itens {
+    height: 427px;
+    display: flex;
+    justify-content: space-around;
+}
+    
+.botao {
+    width: 198px;
+    height: 46px;
+    margin-left: 86px;
+    margin-bottom: 58px;
+    color: #1446A0; 
+    background-color: #EDE82A; 
+    border: none;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 28px;
+}
+
+.login {
+    width: 700px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa {
+    background-image: url(/assets/img/Mapa.png); 
+    height: 554px;   
+}
+
+.rodape {
+    margin-top: 25px;
+    height: 330px;
+    background-color: #EDE82A;     
+}
+
+.toporodape {
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.miniblocos {
+    width: 370px;
+    height: 42px;  
+    display: flex;
+    
+    
+}
+
+.titulobloco {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 28px;
+    color: #1446A0; 
+   
+}
+
+
+.blocos {
+    height: 330px;
+    display: flex;
+    justify-content: space-around;
+      
+    
+}
+
+.elemento {
+    width: 370px;
+    height: 330px;    
+    
+}
+
+
+.barra {
+    width: 370px;
+    height: 65px;
+    display: flex;    
+    
+}
+
+.icone {
+    width: 150px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;        
+}
+
+.icone img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.textos {
+    width: 220px;
+    height: 65px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    color: #1446A0; 
+    display: flex;
+    align-items: center;
+    
+}
+
+.titulosubpagina {
+    display: flex;
+}
+
+.titulosubpagina {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1446A0;
+    text-transform: uppercase;    
+    font-family: 'IBM Plex Serif', serif;
+    justify-content: center;
+    
+}
+
+.marcaplaystation {
+    background-image: url(/assets/img/playstation.jpg);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marcaxbox {
+    background-image: url(/assets/img/xbox_marc.png);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marcanitendo {
+    background-image: url(/assets/img/xbox_marc.png);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marcapc {
+    background-image: url(/assets/img/pcgame.jpg);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.marcaswitch {
+    background-image: url(/assets/img/switch.jpg);
+    height: 539px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .container-grid{
+        width: 70%;
+    }
+
+} 
+  
+ @media only screen and (max-width: 843px) {
+    .pix-topo img {
+        width: 20px;
+    }
+   
+
+     .texto-topo img {
+        width: 165px;
+    }
+
+    .pesquisa {
+        display: none;
+    }
+    
+    .link-menu-barras {
+        display: inline-block;        
+    }
+
+    #menu-barra {
+        display: inline-block;
+    }
+
+   
+    header {
+        height: 140px; 
+    }
+    
+    .menufundo {
+        display: none;
+    }
+
+    .menufundo {
+        /* display: none; */
+       flex-direction: column; 
+       justify-content: space-around;
+       height: 300px;
+       background-color: #EDE82A;
+       width: 200px;
+       position: absolute;
+       z-index: 10;
+        
+    }
+
+    .menu-ativo {
+        display: flex;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .icones {
+        width: 30px;
+        margin-left: 5px;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 940px) {
+    .carro {
+        width: 100%;
+    }
+    
+    .itens {
+        flex-direction: column;
+        height: 1070px;
+    }
+
+    .mapa {
+        background-size: 100%;
+    }
+
+    .itens img {
+        height: 264px;           
+    }
+            
+    .botao {
+         width: 148px;
+         font-size: 21px;
+    }
+ 
+}
+
+@media only screen and (max-width: 1000px) {
+   
+    
+    .blocos {
+        margin-top: 20px;
+        display: flex;        
+        flex-direction: column;
+       justify-content: space-between;
+        
+    }
+
+    
+    .rodape {
+        height: 776px;;
+    }
+
+       
+    .icone img {
+        width: 40px;
+        height: 40px;    }
+    
+    
+    .textos {
+        font-size: 14px;    
+        
+    }
+
+  
+
+    
+
+}
+
+@media only screen and (max-width: 400px) {
+    .pix-topo img {
+        width: 20px;
+    }
+   
+
+     .texto-topo img {
+        width: 165px;
+    }
+    
+    .pesquisa {
+        display: none;
+    }
+    
+    .link-menu-barras {
+        display: inline-block;        
+    }
+
+    header {
+        height: 140px; 
+    }
+    
+    .menufundo {
+        display: none;
+    }
+
+    .menufundo {
+        /* display: none; */
+       flex-direction: column; 
+       justify-content: space-around;
+       height: 300px;
+       background-color: #EDE82A;
+       width: 200px;
+       position: absolute;
+        
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    .icones {
+        width: 25px;
+        margin-left: 3px;
+    }
+
+    .link-menu-barras img {
+        width: 40px;
+    }
+
+    .itens img {
+        height: 230px;           
+    }
+            
+    .botao {
+         width: 140px;
+         font-size: 21px;
+    }
+
+    .icone img {
+        width: 35px;
+        height: 35px;    }
+    
+    
+    .textos {
+        font-size: 14px;    
+        
+    }
+
+    .itens {
+        width: 100%;
+    }
+
+    .item {
+        width: 100%;
+    }
+  
+    .item img {
+        width: 100%;
+    }
+
+    .item button {
+        align-items: center;
+    }
+  
+
+  
+
+}
+
+
+ .btn-projeto {
+    background-color: #1446A0 ;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+ }
+
+
+.preco-projeto{
+    background-color: #EDE82A;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #1446A0 ;
+    font-weight: bold;
+
+}
+
+.produtos {
+    margin-top: 20px;
+}
