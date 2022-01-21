@@ -1,0 +1,23 @@
+<section class="container-grid conteiner login" >
+
+    <form #loginForm="ngForm" (ngSubmit)="onSubmit()" >
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email </label>
+          <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="loginModel.email">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input type="password" name="password" class="form-control" id="exampleInputPassword1" [(ngModel)]="loginModel.password">
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Guardar credenciais</label>
+        </div>
+        <button id="botao-enviar" type="submit" class="btn btn-primary" >Entrar</button>
+
+      </form>
+
+</section>

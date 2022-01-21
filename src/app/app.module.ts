@@ -10,6 +10,8 @@ import { ConsolesComponent } from './views/consoles/consoles.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PlaystationComponent } from './views/playstation/playstation.component';
 import { XboxComponent } from './views/xbox/xbox.component';
+import { LoginComponent } from './views/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { XboxComponent } from './views/xbox/xbox.component';
     FooterComponent,
     ConsolesComponent,
     PlaystationComponent,
-    XboxComponent
+    XboxComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

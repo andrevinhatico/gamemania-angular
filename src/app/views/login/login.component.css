@@ -1,38 +1,16 @@
 
 
-.textos {
-    width: 220px;
-    height: 65px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 16px;
-    color: #1446A0; 
+.login {
+    width: 700px;
+    height: 350px;
     display: flex;
     align-items: center;
-    
-}
-
-.titulosubpagina {
-    display: flex;
-}
-
-.titulosubpagina {
-    font-size: 40px;
-    font-weight: bold;
-    color: #1446A0;
-    text-transform: uppercase;    
-    font-family: 'IBM Plex Serif', serif;
     justify-content: center;
-    
 }
 
 
 
-.marcaxbox {
-    background-image: url(/assets/img/xbox_marc.png);
-    height: 539px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 
 
 
