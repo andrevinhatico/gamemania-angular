@@ -56,42 +56,42 @@ function renderizarProdutos() {
     let listaProdutos = [
 
         {
-            imagem: "img/xbox.svg",
+            imagem: "/assets/img/xbox.svg",
             titulo: "Playstation",
             descricao:"PlayStation 4 e PS5",
             preco: "R$ 3.000,00"
         },
 
         {
-            imagem: "img/xbox.svg",
+            imagem: "/assets/img/xbox.svg",
             titulo: "Nitendo",
             descricao:"Super Nitendo",
             preco: "R$ 2.100,00"
         },
 
         {
-            imagem: "img/xbox.svg",
+            imagem: "/assets/img/xbox.svg",
             titulo: "Switch",
             descricao:"Game super",
             preco: "R$ 1.000,00"
         },
 
         {
-            imagem: "img/xbox.svg",
+            imagem: "/assets/img/xbox.svg",
             titulo: "Atari",
             descricao:"Pura Nostalgia",
             preco: "R$ 500,00"
         },
 
         {
-            imagem: "img/xbox.svg",
+            imagem: "/assets/img/xbox.svg",
             titulo: "Tec-Toy",
             descricao:"Master e Mega",
             preco: "R$ 1.200,00"
         },
 
         {
-            imagem: "img/xbox.svg",
+            imagem: "/assets/img/xbox.svg",
             titulo: "Gradiente",
             descricao:"Turbo Game",
             preco: "R$ 1.200,00"
