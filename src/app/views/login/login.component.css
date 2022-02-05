@@ -6,8 +6,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
+#mensagem {
+
+    color: blue;
+    width: 226.667px;
+    margin-top: 5px;
+    font-weight: bold;
+
+}
 
 
 

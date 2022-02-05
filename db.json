@@ -1,4 +1,12 @@
 {
+  "users": [
+    {
+      "email": "andre@email.com",
+      "password": "$2a$10$iyQQqlz7vnyGXnYR14G9Q.cgOcTO9rpqwUn7jMdo3Z7QLoceQqXj.",
+      "nome": "Andre",
+      "id": 1
+    }
+  ],
   "produtos": [
     {
       "id": 1,
